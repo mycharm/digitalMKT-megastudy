@@ -1,0 +1,16 @@
+1. git/git-hub
+    1. git : 버전관리 툴 // 협업
+        1. A // B
+        2. 로컬컴퓨터 내 ㅐ데이터ㅓ 저장, 관리
+        3. git -v : 로컬 컴퓨터 내 깃 설치여부 확인을 위해서 git 버전 확인
+        4. git config —list : 로컬컴퓨터 내 git 소유주 정보
+            1. 반드시 전역 (*global)
+        5. git config —global [user.name](http://user.name) “mycharm”
+        6. git config —global [user.email](http://user.email) 
+    2. git-hub
+
+*터미널 3개
+
+- powershell
+- 명령 프롬프트 = cmd // 보안취약 // 외부 라이브러리 및 앱 설치 제한
+- git-bash :
