@@ -1,16 +1,36 @@
+# 250122_GA4 맞춤측정_GIT/GTIHUB
+
+1. 맞춤측정기준 :
+    1. 이벤트 실행 결과값 중 특정한 값을 측정하고자 할 때
+2. 전환이벤트 설정 : 
+    1. 여러 이벤트 가운데 중요이벤트를 별도로 선별하고자 할 때
+
+---
+
 1. git/git-hub
     1. git : 버전관리 툴 // 협업
         1. A // B
-        2. 로컬컴퓨터 내 ㅐ데이터ㅓ 저장, 관리
+        2. 로컬컴퓨터 내 데이터 저장, 관리
         3. git -v : 로컬 컴퓨터 내 깃 설치여부 확인을 위해서 git 버전 확인
         4. git config —list : 로컬컴퓨터 내 git 소유주 정보
             1. 반드시 전역 (*global)
         5. git config —global [user.name](http://user.name) “mycharm”
         6. git config —global [user.email](http://user.email) 
+        7. 원격 레포지토리 연동
+            1. `git remote add origin https://github.com/mycharm/digitalMKT-megastudy.git`
+        8. 스테이징 영역으로 데이터를 추가
+            1. git add .
+        9. 스테이징 영역으로 정상적으로 데이터가 추가되었는지 확인
+            1. git status
+        10. 연동 확인 : git remote -v
+        11. 커밋 메세지를 생성
+            1. 나중에 해당 메세지를 근거로 버전을 찾아오거나 돌릴 수 있음
+            2. git commit -m “cho-250122-1”
+        12. git push origin master
     2. git-hub
 
 *터미널 3개
 
 - powershell
 - 명령 프롬프트 = cmd // 보안취약 // 외부 라이브러리 및 앱 설치 제한
-- git-bash :
+- git-bash : git 사용시 주로 쓰는 이유 ⇒ 브랜치 이름 나옴 ⇒ 현재 내가 어떤 브랜치에 있는지를 시각적으로 알 수 있음
